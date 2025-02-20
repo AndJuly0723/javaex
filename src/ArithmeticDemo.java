@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class ArithmeticDemo {
@@ -18,13 +20,13 @@ public class ArithmeticDemo {
     Scanner in = new Scanner(System.in);
     System.out.print("정수를 입력해주세요 : ");
     int i = in.nextInt();
+    int remainder = i % 2;
+    String evenOdd = (remainder == 0) ? "짝수" : "홀수" ;
+    System.out.printf("입력한 수는 %d 이며, %s 입니다.", i, evenOdd);
 
 
-    if(i % 2 == 0){
-      System.out.println("짝수입니다.");
-    }else{
-      System.out.println("홀수입니다.");
-    }
+
+
 
 
   }
