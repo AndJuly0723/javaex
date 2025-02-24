@@ -20,7 +20,7 @@ public class Example1 {
        break;
      }
      System.out.printf("%d과 %d를 더한 결과는 %d 입니다. \n", num1, num2, add(num1, num2));
-   }// end of whlie
+   }// end of while
 
   } //end of main method
   static int add(int num1, int num2){
