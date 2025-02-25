@@ -20,12 +20,8 @@ public class ArrayListDemo3 {
 
     }
     //System.out.println("scores = " + scores);
-    for( int i =0; i < scores.size(); i++){
-      total += scores.get(i);
-    }
 
-    System.out.println("합계 = " + total);
-    System.out.println("평균 = " + total / scores.size());
+
 
 
 
